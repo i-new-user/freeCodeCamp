@@ -13,4 +13,21 @@ let result = myRegex.test(myString);
 
 let petString = "James has a pet cat.";
 let petRegex = /dog|cat|bird|fish/;
-let resul = petRegex.test(petString);
+let resul1 = petRegex.test(petString);
+
+
+
+
+
+
+//-----------------------------------------------------------------------------------------
+
+//Write a regex fccRegex to match freeCodeCamp, no matter its case. Your 
+//regex should not match any abbreviations or variations with spaces.
+
+
+
+
+let myString2 = "freeCodeCamp";
+let fccRegex = /freeCodeCamp/i;
+let result2 = fccRegex.test(myString);
