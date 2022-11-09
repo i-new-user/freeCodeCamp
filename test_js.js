@@ -31,3 +31,16 @@ let resul1 = petRegex.test(petString);
 let myString2 = "freeCodeCamp";
 let fccRegex = /freeCodeCamp/i;
 let result2 = fccRegex.test(myString);
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------
+
+//Apply the .match() method to extract the string coding.
+
+
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/;
+let result3 = extractStr.match(codingRegex);
