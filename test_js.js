@@ -118,3 +118,17 @@ let result10 = quoteSample.match(myRegex);
 let difficultSpelling = "Mississippi";
 let myRegex4 = /s+/gi; 
 let result11 = difficultSpelling.match(myRegex);
+
+
+
+
+//-------------------------------------------------------------------------------------------------
+
+//For this challenge, chewieQuote has been initialized as the string Aaaaaaaaaaaaaaaarrrgh! 
+//behind the scenes. Create a regex chewieRegex that uses the * character to match an 
+//uppercase A character immediately followed by zero or more lowercase a characters in 
+//chewieQuote. Your regex does not need flags or character classes, and it should not match 
+//any of the other quotes.
+
+let chewieRegex = /Aa*/; 
+let result12 = chewieQuote.match(chewieRegex);
