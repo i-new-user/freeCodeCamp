@@ -44,3 +44,14 @@ let result2 = fccRegex.test(myString);
 let extractStr = "Extract the word 'coding' from this string.";
 let codingRegex = /coding/;
 let result3 = extractStr.match(codingRegex);
+
+
+
+//---------------------------------------------------------------------------------------------------------------------
+
+//Using the regex starRegex, find and extract both Twinkle words from the string 
+//twinkleStar.
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /Twinkle/gi;
+let result4 = twinkleStar.match(starRegex); 
