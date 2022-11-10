@@ -105,3 +105,16 @@ let result9 = quoteSample.match(myRegex);
 let quoteSample3 = "3 blind mice.";
 let myRegex3 = /[^0-9aeiou]/gi ;
 let result = quoteSample.match(myRegex); 
+
+
+
+
+
+//------------------------------------------------------------------------------------------------------
+
+//You want to find matches when the letter s occurs one or more times in Mississippi. 
+//Write a regex that uses the + sign.
+
+let difficultSpelling = "Mississippi";
+let myRegex4 = /s+/gi; 
+let result10 = difficultSpelling.match(myRegex);
