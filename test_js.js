@@ -104,7 +104,7 @@ let result9 = quoteSample.match(myRegex);
 
 let quoteSample3 = "3 blind mice.";
 let myRegex3 = /[^0-9aeiou]/gi ;
-let result = quoteSample.match(myRegex); 
+let result10 = quoteSample.match(myRegex); 
 
 
 
@@ -117,4 +117,4 @@ let result = quoteSample.match(myRegex);
 
 let difficultSpelling = "Mississippi";
 let myRegex4 = /s+/gi; 
-let result10 = difficultSpelling.match(myRegex);
+let result11 = difficultSpelling.match(myRegex);
