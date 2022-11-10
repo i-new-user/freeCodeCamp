@@ -78,6 +78,30 @@ let result7 = quoteSample.match(vowelRegex);
 //Match all the letters in the string quoteSample.
 //Note: Be sure to match both uppercase and lowercase letters.
 
-let quoteSample2 = "The quick brown fox jumps over the lazy dog.";
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
 let alphabetRegex = /a-z0-9/gi; 
-let result = quoteSample.match(alphabetRegex);
+let result8 = quoteSample.match(alphabetRegex);
+
+
+
+
+//-------------------------------------------------------------------------------------------------------------
+
+//Create a single regex that matches a range of letters between h and s, and a range
+//of numbers between 2 and 6. Remember to include the appropriate flags in the regex.
+
+let quoteSample2 = "Blueberry 3.141592653s are delicious.";
+let myRegex2 = /[h-s2-6]/gi;
+let result9 = quoteSample.match(myRegex); 
+
+
+
+
+//-------------------------------------------------------------------------------------------------------
+
+//Create a single regex that matches all characters that are not a number or a vowel.
+//Remember to include the appropriate flags in the regex.
+
+let quoteSample3 = "3 blind mice.";
+let myRegex3 = /[^0-9aeiou]/gi ;
+let result = quoteSample.match(myRegex); 
