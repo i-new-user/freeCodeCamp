@@ -132,3 +132,20 @@ let result11 = difficultSpelling.match(myRegex);
 
 let chewieRegex = /Aa*/; 
 let result12 = chewieQuote.match(chewieRegex);
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------------
+
+//Fix the regex /<.*>/ to return the HTML tag <h1> and not the text "<h1>Winter is 
+//coming</h1>". Remember the wildcard . in a regular expression matches any character.
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex5 = /<.*?>/;
+let result13 = text.match(myRegex);
+
+
+
+
