@@ -188,6 +188,7 @@ let result15 = lastRegex.test(caboose);
 
 
 
+
 //---------------------------------------------------------------------------------------------------------------
 
 //Use the shorthand character class \w to count the number of alphanumeric characters 
@@ -197,3 +198,19 @@ let result15 = lastRegex.test(caboose);
 let quoteSample4 = "The five boxing wizards jump quickly.";
 let alphabetRegexV2 = /\w/gi;
 let result16 = quoteSample.match(alphabetRegexV2).length;
+
+
+
+
+
+//-----------------------------------------------------------------------------------------------------
+
+//Use the shorthand character class \W to count the number of non-alphanumeric 
+//characters in various quotes and strings.
+
+let quoteSample5 = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W+/g;
+let result17 = quoteSample.match(nonAlphabetRegex).length;
+
+
+
