@@ -156,3 +156,15 @@ let result13 = text.match(myRegex);
 //A criminal is represented by the capital letter C.
 
 let reCriminals = /C+/g;
+
+
+
+
+
+//-----------------------------------------------------------------------------------------------------------
+
+//Use the caret character in a regex to find Cal only in the beginning of the string rickyAndCal.
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; 
+let result14 = calRegex.test(rickyAndCal);
