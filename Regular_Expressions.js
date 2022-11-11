@@ -168,3 +168,16 @@ let reCriminals = /C+/g;
 let rickyAndCal = "Cal and Ricky both like racing.";
 let calRegex = /^Cal/; 
 let result14 = calRegex.test(rickyAndCal);
+
+
+
+
+
+
+//------------------------------------------------------------------------------------------------------
+
+//Use the anchor character ($) to match the string caboose at the end of the string caboose.
+
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; 
+let result15 = lastRegex.test(caboose);
