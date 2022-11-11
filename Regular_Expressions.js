@@ -163,7 +163,8 @@ let reCriminals = /C+/g;
 
 //-----------------------------------------------------------------------------------------------------------
 
-//Use the caret character in a regex to find Cal only in the beginning of the string rickyAndCal.
+//Use the caret character in a regex to find Cal only in the beginning of the string 
+//rickyAndCal.
 
 let rickyAndCal = "Cal and Ricky both like racing.";
 let calRegex = /^Cal/; 
@@ -176,8 +177,23 @@ let result14 = calRegex.test(rickyAndCal);
 
 //------------------------------------------------------------------------------------------------------
 
-//Use the anchor character ($) to match the string caboose at the end of the string caboose.
+//Use the anchor character ($) to match the string caboose at the end of the string 
+//caboose.
 
 let caboose = "The last car on a train is the caboose";
 let lastRegex = /caboose$/; 
 let result15 = lastRegex.test(caboose);
+
+
+
+
+
+//---------------------------------------------------------------------------------------------------------------
+
+//Use the shorthand character class \w to count the number of alphanumeric characters 
+//in various quotes and strings.
+
+
+let quoteSample4 = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/gi;
+let result16 = quoteSample.match(alphabetRegexV2).length;
