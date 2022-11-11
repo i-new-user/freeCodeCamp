@@ -236,4 +236,16 @@ let result18 = movieName.match(numRegex).length;
 
 let movieName2 = "2001: A Space Odyssey";
 let noNumRegex = /\D/g;
-let result = movieName2.match(noNumRegex).length;
+let result19 = movieName2.match(noNumRegex).length;
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------
+
+//Change the regex userCheck to fit the constraints listed above.
+
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z]([a-z]+\d*|\d{2,})$/i;
+let result20 = userCheck.test(username);
