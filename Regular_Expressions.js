@@ -276,3 +276,17 @@ let result21 = sample2.match(countWhiteSpace);
 let sample2 = "Whitespace is important in separating words";
 let countNonWhiteSpace = /\S/g;
 let result22 = sample2.match(countNonWhiteSpace);
+
+
+
+
+
+//------------------------------------------------------------------------------------------------------
+
+//Change the regex ohRegex to match the entire phrase Oh no only when it has 3 to 6 
+//letter h's.
+
+let ohStr = "Ohhh no";
+let ohRegex = /oh{3,6}\sno/gi;
+let result23 = ohRegex.test(ohStr);
+
