@@ -260,6 +260,19 @@ let result20 = userCheck.test(username);
 //Change the regex countWhiteSpace to look for multiple whitespace characters in a 
 //string.
 
-let sample = "Whitespace is important in separating words";
+let sample1 = "Whitespace is important in separating words";
 let countWhiteSpace = /\s/g;
-let result21 = sample.match(countWhiteSpace);
+let result21 = sample2.match(countWhiteSpace);
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------
+
+//Change the regex countNonWhiteSpace to look for multiple non-whitespace characters 
+//in a string.
+
+let sample2 = "Whitespace is important in separating words";
+let countNonWhiteSpace = /\S/g;
+let result22 = sample2.match(countNonWhiteSpace);
