@@ -249,3 +249,17 @@ let result19 = movieName2.match(noNumRegex).length;
 let username = "JackOfAllTrades";
 let userCheck = /^[a-z]([a-z]+\d*|\d{2,})$/i;
 let result20 = userCheck.test(username);
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------
+
+//Change the regex countWhiteSpace to look for multiple whitespace characters in a 
+//string.
+
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g;
+let result21 = sample.match(countWhiteSpace);
