@@ -303,3 +303,14 @@ let haStr = "Hazzzzah";
 let haRegex = /Haz{4,}ah/g;
 let result24 = haRegex.test(haStr);
 
+
+
+
+
+//-----------------------------------------------------------------------------------------------
+
+//Change the regex timRegex to match the word Timber only when it has four letter m's
+
+let timStr = "Timmmmber";
+let timRegex = /tim{4}ber/gi;
+let result25 = timRegex.test(timStr);
