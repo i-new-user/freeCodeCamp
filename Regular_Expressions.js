@@ -296,5 +296,10 @@ let result23 = ohRegex.test(ohStr);
 
 //-----------------------------------------------------------------------------------------------------
 
+//Change the regex haRegex to match the word Hazzah only when it has four or more 
+//letter z's.
 
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/g;
+let result24 = haRegex.test(haStr);
 
