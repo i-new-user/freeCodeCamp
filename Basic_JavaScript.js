@@ -146,3 +146,14 @@ function checkSign(num) {
 }
 
 checkSign(10);
+
+
+
+
+
+
+//Use Recursion to Create a Countdown
+
+function countdown(n){
+  return n < 1 ? [] : [n].concat(countdown(n - 1));
+}
