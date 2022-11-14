@@ -95,3 +95,15 @@ function randomWholeNum() {
 function randomRange(myMin, myMax) {
   return Math.floor (Math.random() * (myMax - myMin + 1) + myMin);
 }
+
+
+
+
+
+//Use the parseInt Function
+
+function convertToInteger(str) {
+  return parseInt(str);
+}
+
+convertToInteger("56");
