@@ -327,3 +327,17 @@ let result25 = timRegex.test(timStr);
 let favWord = "favorite";
 let favRegex = /favou?rite/;
 let result26 = favRegex.test(favWord);
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------------
+
+//Use lookaheads in the pwRegex to match passwords that are greater than 5 characters 
+//long, and have two consecutive digits.
+
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{5,})(?=\D\w*\d{2})/;
+let result26 = pwRegex.test(sampleWord);
