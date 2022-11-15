@@ -33,3 +33,14 @@ console.log(popShift(['challenge', 'is', 'not', 'complete']));
 const arr = [2, 4, 5, 1, 7, 5, 2, 1];
 arr.splice(1,4)
 console.log(arr);
+
+
+
+//Add Items Using splice()
+function htmlColorNames(arr) {
+    arr.splice(0,2,'DarkSalmon', 'BlanchedAlmond');
+      return arr;
+    
+    }
+    
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
