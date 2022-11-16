@@ -78,3 +78,13 @@ function spreadOut() {
 }
 
 console.log(spreadOut());
+
+
+
+
+//Check For The Presence of an Element With indexOf()
+function quickCheck(arr, elem) {
+  return arr.indexOf(elem) >= 0 ? true : false;
+}
+
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
