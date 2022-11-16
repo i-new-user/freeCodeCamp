@@ -220,3 +220,4 @@ function isEveryoneHere(userObj) {
 }
 
 console.log(isEveryoneHere(users));
+
