@@ -156,3 +156,21 @@ let userActivity = {
 };
 userActivity.data.online = 45;
 console.log(userActivity);
+
+
+
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28,
+  bananas: 13,
+  grapes: 35,
+  strawberries: 27
+};
+
+//Access Property Names with Bracket Notation
+function checkInventory(scannedItem) {
+  return foods[scannedItem];
+}
+
+console.log(checkInventory("apples"));
