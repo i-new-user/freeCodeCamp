@@ -191,3 +191,32 @@ delete foods.oranges;
 delete foods.plums;
 delete foods.strawberries;
 console.log(foods);
+
+
+let users = {
+  Alan: {
+    age: 27,
+    online: true
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: true
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+
+
+//Check if an Object has a Property
+function isEveryoneHere(userObj) {
+  return 'Alan' in userObj && 'Jeff' in userObj && userObj.hasOwnProperty('Sarah') && userObj.hasOwnProperty('Ryan');
+}
+
+console.log(isEveryoneHere(users));
