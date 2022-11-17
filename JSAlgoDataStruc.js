@@ -77,3 +77,11 @@ function confirmEnding(str, target) {
   }
   
   repeatStringNumTimes("abc", 3);
+
+
+  //Truncate a String
+  function truncateString(str, num) {
+    return str.length > num ? str.substring(0, num)+'...' : str;
+  }
+  
+  truncateString("A-tisket a-tasket A green and yellow basket", 8);
