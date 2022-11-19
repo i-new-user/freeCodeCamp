@@ -133,3 +133,10 @@ function frankenSplice(arr1, arr2, n) {
 }
 
 frankenSplice([1, 2, 3], [4, 5, 6], 1);
+
+//Falsy Bouncer
+function bouncer(arr) {
+  arr = arr.filter(function (n) { 
+     return (n !== undefined && n !== null && n !== false && n !== 0 && n !== "" && isNaN()!=NaN); });
+   return arr;
+ }
