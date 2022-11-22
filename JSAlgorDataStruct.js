@@ -122,3 +122,19 @@ function Dog(name, color) {
   function joinDogFraternity(candidate) {
      return candidate.constructor === Dog ? true : false;
   }
+
+
+  //Change the Prototype to a New Object
+  function Dog(name) {
+    this.name = name;
+  }
+  
+  Dog.prototype = {
+    numLegs: 4,
+    eat: function(){
+      console.log('ddd d ddd');
+    },
+    describe: function(){
+      console.log("My name is " + this.name)
+    }
+  };
