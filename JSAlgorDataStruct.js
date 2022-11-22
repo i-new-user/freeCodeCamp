@@ -112,3 +112,13 @@ function Dog(name, color) {
       prototypeProps.push(property)
     }
   }
+
+
+  //Understand the Constructor Property
+  function Dog(name) {
+    this.name = name;
+  }
+  
+  function joinDogFraternity(candidate) {
+     return candidate.constructor === Dog ? true : false;
+  }
