@@ -238,3 +238,19 @@ Dog.prototype = Object.create(Animal.prototype);
 function Dog() { }
 
 let beagle = new Dog();
+
+
+
+//Reset an Inherited Constructor Property
+function Animal() { }
+function Bird() { }
+function Dog() { }
+
+Bird.prototype = Object.create(Animal.prototype);
+Dog.prototype = Object.create(Animal.prototype);
+
+
+let duck = new Bird();
+duck.constructor = Bird
+let beagle = new Dog();
+beagle.constructor = Dog
